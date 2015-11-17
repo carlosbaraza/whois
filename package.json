@@ -1,0 +1,16 @@
+{
+  "name": "whois",
+  "version": "0.0.1",
+  "description": "Whois web service",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "sudo node_modules/forever/bin/forever start index.js"
+  },
+  "author": "Carlos Baraza",
+  "license": "MIT"
+}
